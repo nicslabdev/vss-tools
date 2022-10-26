@@ -6,3 +6,6 @@ require (
    github.com/COVESA/vss-tools/binary/go_parser/datamodel v0.0.0-20211207094201-7208d48f32b6
 )
 
+replace(
+    github.com/COVESA/vss-tools/binary/go_parser/datamodel v0.0.0-20211207094201-7208d48f32b6 => ../datamodel
+)
